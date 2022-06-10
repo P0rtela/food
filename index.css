@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pao {
+    width: 20%;
+    transition: 1s;
+}
+
+.pao:hover {
+    cursor: pointer;
+    width: 25%;
+}
