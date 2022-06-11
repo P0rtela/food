@@ -1,6 +1,5 @@
 function comida() {
     let x = Math.floor(Math.random() * 23);
-    var foo = document.getElementById("food");
     
     if (x==0){location.href="berinjela.html";} else
     if (x==1){location.href="brocolis.html";} else
@@ -25,4 +24,13 @@ function comida() {
     if (x==20){location.href="pepino.html";} else
     if (x==21){location.href="queijo.html";} else
     if (x==22){location.href="tomate.html";}
+}
+
+function egg() {
+    let y = Math.floor(Math.random() * 100);
+    if (y==0){
+        location.href="https://youtu.be/a3Z7zEc7AXQ";
+    } else if (y!=0){
+        history.back();
+    }
 }
